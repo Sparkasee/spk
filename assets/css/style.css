@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+}
+.top__seciton 
+{
+    height: 30px;
+}
+.one__buton h4 {
+    font-size: 16px;
+}
+.colrf00 {
+    color: #f00;
+}
+header {
+    background-color: #f00;
+}
+.right__left__side {
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 50%;
+}
+.search {
+    background-color: white;
+    border-radius: 6px;
+    padding: 5px;
+    height: 40px;
+    line-height: 40px;
+}
+.right__left__side .form-control {
+    border:1px solid white;
+    padding: 0px;
+    margin-left: 15px;
+}
+::placeholder {
+    font-size: 14px;
+}
+main {
+    background-color: #f0f0f0;
+}
+.custom__width {
+ width: 40px;
+ height: 40px;
+ background-color: #f00!important;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.custom__width .fa-house-chimney {
+    color: white;
+    font-size: 14px;
+}
+.header__section ul li:not(:nth-child(1)) {
+    width: 183px;
+    background-color: rgba(68,68,68,0.8);
+}
+.header__section ul li a {
+    font-size: 14px;
+    font-weight: 500;
+}
+.form__heading h2 {
+    font-size: 28px;
+    color: #f00;
+}
+.custom__sparkar h3 {
+ font-size: 23px;
+}
+.w220 {
+    width: 220px;
+}
+.w215 {
+    width: 215px;
+}
+.w220 label {
+    font-size: 14px;
+    /* color:#f00; */
+}
+.w215 .form-control {
+    padding: 2px;
+    border: 1px solid black;
+}
+.bnt_top a {
+    color: #f00;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.bnt_bottm .btn-danger {
+    background-color: #f00;
+    font-size: 16px;
+    font-weight: 600;
+}
+.w980 {
+    width: 980px;
+}
+/* .formw480 {
+ max-width: 480px;
+} */
+.custom__sparkar p {
+    font-size: 13px;
+}
+.links__icons__sparkas,.arrow__sparkas {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links__sparkas {
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    margin-top: -1px;
+}
+.footer_top h2 {
+    font-size: 15px;
+}
+.footer_top p {
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+.footer_bottom a {
+    color: white;
+    font-size: 14px;
+}
+.footer_bottom,.footer_top {
+    padding: 0.5rem;
+}
+.links__icons__sparkas svg {
+    font-size: 14px;
+}
+.links__h6_sparkas {
+    font-size: 14px;
+    width: 388px;
+}
+.hamburgr {
+    color: #f00!important;
+    font-size: 29px;
+    box-shadow: 1px 2px 0 rgb(0 0 0 / 10%);
+    background-color: white;
+}
+.footer_bottom {
+    background-color: #f00;
+}
+.footer_top {
+    background-color: #666;
+}
+@media (max-width:991px) {
+    .header__section ul li {
+        background-color: rgba(255, 255, 255);
+    }
+    .cross__head {
+        display: flex;
+        justify-content: space-between;
+    }
+    .cross__head h2 {
+        font-size: 19px;
+        color:#f00;
+    }
+    .header__section {
+        background-color: rgb(255, 255, 255);
+        height: 100vh;
+        width: 300px;
+    }
+    .header__section ul li:not(:nth-child(1)) {
+        width: 300px;
+        background-color: rgba(255, 255, 255, 0.8);
+    } 
+    ul {
+        padding-left: 0;
+    }
+    .footer_bottom {
+        background-color: #666;
+        text-align: center;
+    }
+    .w980 {
+        width: 100%;
+    }
+    .header__section {
+        position: absolute;
+    }
+    .header__section a {
+       color: rgb(38, 38, 38);
+       text-align: left;
+    }
+    .header__left__side {
+        width: 250px;
+    }
+    .custom__wid {
+        max-width: 33%;
+    }
+    .right__left__side {
+        width: 28px;
+        height: 28px;
+    }
+    .right__left__side h6 {
+        font-size: 12px;
+    }
+}
+.round_circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid;
+}
+.round_circle svg {
+    font-size: 12px;
+}
+.footer_middel {
+    padding: 50px 10px;
+}
+.box_text .chote {
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    margin-left: 10px;
+}
+.box_text p {
+    color: white;
+    font-size: 13px;
+    margin-left: 10px;
+}
+.eror__div_shw {
+    border: 4px solid black;
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.eror__div_shw p {
+    color: #ff0000!important;
+    /* font-size: 14px; */
+}

